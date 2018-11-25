@@ -7,7 +7,6 @@ import java.util.List;
 public class AutoSuggestionProvider {
     private final Trie trie;
 
-
     public AutoSuggestionProvider() {
         this.trie = new Trie();
     }
